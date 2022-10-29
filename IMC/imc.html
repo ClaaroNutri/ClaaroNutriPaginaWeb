@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>CALCULADORA DE IMC</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="imc.css">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <div class="container">
+        <div class="logo">
+          <img id="logo" src="LOGO1.png" alt="logo" width="60" height="54">
+        </div>
+        <div class="titulo">
+            <h3>
+                Calculá tu IMC (Indice de Masa Corporal)
+            </h3>
+        </div>
+        <form action="imc.html" maethod="">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="peso"></label>
+                    <input type="text" class="form-control" id="peso" placeholder="Ingresá tu peso en kilogramos"></input>
+                </div>
+                <div class="col-md-4">
+                    <label for="altura"></label>
+                    <input type="text" class="form-control" id="altura" placeholder="Ingresá tu altura en metros, ejemplo 1.60"></input>
+                </div>
+                <button class="btn btn-primary" id="imc" onclick="calcularIMC()">Calcular IMC</button>
+            </div>
+        </form>
+        <div class="imagen">
+            <img src="IMC-05.png" width="40%" height="40%">
+        </div>
+    </div>
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="imc.js"></script>
+</body>
+
+</html>

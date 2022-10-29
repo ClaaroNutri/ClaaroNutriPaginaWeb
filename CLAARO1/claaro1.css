@@ -1,0 +1,21 @@
+body {background-color: #AEC58E;}
+
+.titulo {text-align: left;
+    margin-bottom: 55px;
+}
+
+.titulo:hover {color: #D56862;}
+
+#logo {border-radius: 10px;
+    box-shadow: 8px 5px 5px darkslategray
+}
+.log {text-align: right;
+    margin:25px;
+}
+
+.card {box-shadow: 8px 5px 5px darkslategray;}
+
+.card:hover {transform: scale(1.1);     
+    transition: 4s;
+}
+.card-text{text-align: justify;}

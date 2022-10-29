@@ -1,0 +1,35 @@
+body {background-color: #AEC58E;}
+
+.logo {margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: right;
+}
+.titulo {text-align: center;}
+
+.titulo:hover {color:#D56862;}
+
+.log {border-radius: 10px;
+    box-shadow: 8px 5px 5px darkslategray;}
+
+.card {margin: 40px;
+    text-align: center;
+    box-shadow: 8px 5px 5px darkslategray;
+}
+.card:hover {transform: scale(1.1);
+    transition: 4s;
+}
+
+.up {text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.arr {text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.up:hover {font-size: larger;
+    color:#D56862;
+}

@@ -1,0 +1,39 @@
+body {background-color: #AEC58E;}
+
+#logo {border-radius: 10px;
+    box-shadow: 8px 5px 5px darkslategray;
+    margin-top: 20px;
+    
+}
+
+.logo {text-align: right;
+}
+
+.titulo {text-align: center;
+margin-top: 30px;
+}
+
+.titulo:hover {color:#D56862;}
+
+.row {display: flex;
+    justify-content: center;
+      
+}
+#altura {margin-bottom: 20px;}
+
+.btn {width: 40%;
+    font-size: larger;
+    margin-bottom: 30px;
+    
+}
+.imagen {display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 500px){
+    .imagen {width: 180%;
+    height: 180%;
+    justify-content: left;
+}
+}

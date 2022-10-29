@@ -1,0 +1,181 @@
+
+body {background-color: #ddecc6;}
+
+.navbar {background-color: #AEC58E;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+#logo {border-radius: 10px;
+    box-shadow: 8px 5px 5px darkslategray
+}
+
+.navbar-brand:hover {color:#D56862;}
+
+#cla:hover {font-size: x-large;}
+
+.nav-link:hover {color:#D56862;}
+
+#home:hover {color:#D56862;}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 490px;
+}
+
+.row {justify-content: center;}
+
+#imc {background-color: #E38848;
+    height: 150px;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;   
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    box-shadow: 10px 5px 5px #D56862;
+    
+}
+
+#imc >a {text-decoration: none;
+    color: black;
+    
+}
+
+#imc >a:hover {color:#AEC58E;
+    font-size: xx-large;
+}
+
+#quiz {background-color: #EFC76B;
+    height: 150px;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 5px 5px #E38848;
+    
+}
+
+#quiz >a {text-decoration: none;
+    color: black;}
+
+#quiz >a:hover {color:#D56862;
+    font-size: xx-large;
+}
+
+
+#centro {display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 100px;
+                 
+}
+
+
+.col > .card {border: 2px solid #AEC58E;
+    box-shadow: 8px 5px 5px #EFC76B;
+
+}
+.card-body {text-align: center;}
+
+.card:hover {transform: scale(0.9);
+    transition: 3s;
+}
+
+.ver {text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+
+.ver:hover {color:#AEC58E}
+
+.memes {background-color: #D56862;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 7px 4px 4px #AEC58E;
+    
+}
+.memes >a {color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+
+}
+.memes:hover {transform: scale(1.1);
+    transition: 4s;
+}
+
+.memes > a:hover {color:#AEC58E ;
+        font-size: x-large;
+}
+
+.up {text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.arr {text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.up:hover {font-size: larger;
+    color:#D56862;
+}
+
+.footer {background-color: #AEC58E;
+    width: auto;
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.texto {font-size: larger;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+
+#foo {display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.iconos {text-align: center;
+    margin-left:15px;
+    margin-right: 15px;
+}
+.what {margin-right: 15px;}
+
+@media (max-widht:500px){
+    #quiz >a:hover {color:#D56862;
+                   font-size:large;
+    }
+}

@@ -1,0 +1,48 @@
+body {background-color: #AEC58E;}
+
+#logo {border-radius: 10px;
+    box-shadow: 8px 5px 5px darkslategray;
+    margin-top: 20px;
+    
+}
+.logo {text-align: right;}
+
+.titulo {text-align: center;
+    margin:30px;
+}
+
+.titulo:hover {color:#D56862;}
+
+.parrafo {font-weight: bold;
+    margin-bottom: 35px;
+}
+
+#rec {display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.card {box-shadow: 8px 5px 5px darkslategray;}
+
+.card:hover {transform: scale(0.9);
+    transition: 3s;
+}
+
+.card-body {display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.arr {text-align: center;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+.up {font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.up:hover {color:#D56862;
+    font-size:x-large ;
+}

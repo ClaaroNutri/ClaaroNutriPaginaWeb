@@ -1,0 +1,42 @@
+body {background-color:#AEC58E;
+}
+
+.logo {border-radius: 10px;
+    box-shadow: 8px 5px 5px darkslategray;
+    
+}
+
+.log {text-align: right;
+    margin:20px;
+}
+
+.titulo {text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.titulo:hover {color:#E38848}
+
+.card {box-shadow: 8px 5px 5px darkslategray;
+    border-radius:15px;
+    margin:30px;
+}
+
+
+.link {color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.link:hover {color:#AEC58E;}
+
+.card-body {text-align: center;}
+
+.arriba {text-decoration:none;
+    color:black;
+    font-size:x-large;
+}
+
+.arriba:hover {color:#E38848;
+
+}
