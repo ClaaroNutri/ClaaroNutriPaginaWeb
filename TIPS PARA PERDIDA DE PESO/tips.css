@@ -18,7 +18,8 @@ h3 {text-align: center;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap:40px;
+    gap:50px;
+    
     
 }
 .card {box-shadow: 8px 5px 5px darkslategray;}
