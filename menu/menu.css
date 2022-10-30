@@ -1,6 +1,6 @@
 body {background-color: #AEC58E;}
 
-.logo {text-align: right;}
+.logo {text-align: left;}
 
 .log {border-radius: 10px;
     box-shadow: 8px 5px 5px darkslategray;
@@ -24,3 +24,7 @@ text-align: center;}
 .boton {text-align: right;
 margin-top: 25px;
 margin-bottom:45px;}
+
+@media (max-widht:500px) {
+    .table {max-width: min-content;}
+}

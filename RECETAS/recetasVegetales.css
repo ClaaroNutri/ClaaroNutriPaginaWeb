@@ -27,7 +27,7 @@ h2 {text-align: center;
     flex-wrap: wrap;
     justify-content: space-between;
     margin:15px;
-    gap: 15px;
+    gap: 25px;
    
 }
 .card {box-shadow: 8px 5px 5px darkslategray;}

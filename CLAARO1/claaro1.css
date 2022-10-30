@@ -1,7 +1,7 @@
 body {background-color: #AEC58E;}
 
-.titulo {text-align: left;
-    margin-bottom: 35px;
+.titulo {text-align: center;
+    margin-bottom: 65px;
 }
 
 .titulo:hover {color: #D56862;}
@@ -12,8 +12,17 @@ body {background-color: #AEC58E;}
 .log {text-align: right;
     margin:25px;
 }
+.container {display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction:column;
+}
 
-.card {box-shadow: 8px 5px 5px darkslategray;}
+.card {box-shadow: 8px 5px 5px darkslategray;
+    text-align: center;
+    
+}
 
 .card:hover {transform: scale(1.1);     
     transition: 4s;
